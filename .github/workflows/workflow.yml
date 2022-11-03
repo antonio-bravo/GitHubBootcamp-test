@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:   
       - name: Say hello
-        uses: <your-github-username>/hello-world-docker-action@v1
+        uses: antonio-bravo/GiHubBootcamp/hello-world-docker-action@v1
         with:
           who-to-greet: '@octocat and @antonio-bravo'
